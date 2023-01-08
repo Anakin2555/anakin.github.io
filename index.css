@@ -6,11 +6,6 @@ h1 {
     color: black;
 }
 
-ul {
-    list-style-type: square;
-    background-color: beige;
-}
-
 h1:nth-child(2) {
     font-size: 60px;
 }
