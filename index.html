@@ -10,26 +10,46 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
-    <h2>It's Anakin</h2>
-
-    <div>
-        <div class="li-item">
-
-        </div>
-        <div class="li-item">
-
-        </div>
-        <div class="li-item">
-
-        </div>
+    <div class="title-large">Hello</div>
+    <div class="title-medium">I am Anakin</div>
+    <div class="title-medium">
+        Front-end developer and amateur UX designer
     </div>
+
+    <!-- <div>
+        <div class="li-item">
+
+        </div>
+        <div class="li-item">
+
+        </div>
+        <div class="li-item">
+
+        </div>
+    </div> -->
+
     <br><br><br><br><br><br><br><br><br>
-    <img src="./img/bg1.jpg" width="20%">
+
+    <div class="container">
+        <img src="./img/bg1.jpg">
+        <img src="./img/bg1.jpg">
+        <img src="./img/bg1.jpg">
+        <img src="./img/bg1.jpg">
+    </div>
+
 
 </body>
 
 <style>
+    .title-large {
+        font-size: 80px;
+        font-weight: bold;
+    }
+    
+    .title-medium {
+        font-size: 40px;
+    }
+    
     ul {
         padding: 0%;
     }
@@ -41,6 +61,15 @@
         width: 200px;
         height: 100px;
         background-color: aqua;
+    }
+    
+    .container {
+        display: flex-wrap;
+        flex-direction: column;
+    }
+    
+    .container img {
+        width: 400px;
     }
 </style>
 
