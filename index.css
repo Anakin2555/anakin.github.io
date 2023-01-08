@@ -11,6 +11,10 @@ ul {
     background-color: beige;
 }
 
+h1:nth-child(2) {
+    font-size: 60px;
+}
+
 ul li :nth-child(1) {
     font-size: 29px;
 }
